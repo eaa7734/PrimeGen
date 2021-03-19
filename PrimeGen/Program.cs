@@ -182,8 +182,15 @@ namespace PrimeGen
             lock (_myLock) // Make sure only 1 thread can access this at a time
             {
                 if (DoneGenerating) return; // In case if a thread was not stopped but we are done generating
-                _curPrimes += 1; 
-                Console.WriteLine(_curPrimes + ": " + prime + "\n");
+                _curPrimes += 1;
+                if (_curPrimes == 1)
+                {
+                    Console.WriteLine(_curPrimes + ": " + prime);
+                }
+                else
+                {
+                    Console.WriteLine("\n" + _curPrimes + ": " + prime);
+                }
                 if (_curPrimes >= _maxPrimes) DoneGenerating = true; // We are done generating primes
             }
         }

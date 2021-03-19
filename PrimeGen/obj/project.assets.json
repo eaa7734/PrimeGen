@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "/Users/edgarargueta/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj",
+      "projectUniqueName": "/Users/edgarargueta/RiderProjects/PrimeGen/PrimeGen/PrimeGen.csproj",
       "projectName": "PrimeGen",
-      "projectPath": "C:\\Users\\user\\RiderProjects\\PrimeGen\\PrimeGen\\PrimeGen.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\RiderProjects\\PrimeGen\\PrimeGen\\obj\\",
+      "projectPath": "/Users/edgarargueta/RiderProjects/PrimeGen/PrimeGen/PrimeGen.csproj",
+      "packagesPath": "/Users/edgarargueta/.nuget/packages/",
+      "outputPath": "/Users/edgarargueta/RiderProjects/PrimeGen/PrimeGen/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/edgarargueta/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
